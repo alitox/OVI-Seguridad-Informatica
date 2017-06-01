@@ -1,0 +1,180 @@
+
+/*
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Asap', sans-serif; */
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+/*Etiquetas */
+body{ 
+	background-color: white
+	
+	background-size: cover;
+}
+
+h1{
+	
+	font-family: 'Merriweather Sans', sans-serif;
+	color: black;	
+	margin-left: 10px; 
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+
+	font-family: 'Asap', sans-serif;
+	color: white;	
+	margin-left: 10px; 
+	font-size: 20px;
+	text-align: left;
+}
+
+h3{
+
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;   
+    margin-left: 10px; 
+    font-size: 15px;
+    text-align: center;
+}
+
+h4{
+
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;   
+    margin-left: 10px; 
+    font-size: 10px;
+    text-align: center;
+}
+header{
+	width: 1000px;
+	height: 60px;
+	background: rgb(255, 255, 255, 3,5);
+}
+
+nav  {
+    
+    display: block;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+nav ul {
+    margin: 30px 0 20px 0;
+    padding: .7em;
+    float: auto;
+    height: 45px;
+    list-style: none;
+    background: #005883;
+    background: rgba(248,172,0,1);
+    border-radius: 10px;    
+    box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 
+}
+
+nav > li {
+    float:left;
+
+}
+
+nav a {
+
+    float: left;
+    padding: .8em 2.65em;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #ccc #999 #eee;
+    background: #005883;
+    background: linear-gradient(#005883, #005883);            
+ }
+ 
+nav a:hover, nav a:focus {
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background: #fac754;
+    background: linear-gradient(#fac754, #f8ac00);
+}
+
+nav a:active {
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+ 
+nav li:first-child a {
+    border-left: 0;
+    border-radius: 4px 0 0 4px;            
+}
+
+nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;            
+}
+
+section{
+	width: 450px;
+	background: white;
+	height: 310px;
+	float: left;
+    border-radius: 10px; 
+}
+aside{
+    width: 525px;
+    background: white;
+    height: 310px;
+    float: right;
+    margin-left: 20px;
+    margin-top: auto;
+    border-radius: 10px;
+
+}
+
+footer{
+    width: 1000px;
+    height: 100px;
+    background: #005883;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+
+
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 24px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Asap', sans-serif;
+}
+
+    
+/*Clases*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color:white; text-decoration:none;}
+.menu:visited{color:white; text-decoration:none;}
+.menu:hover{color:white; text-decoration:none; text-shadow:0 0 30px white;}
+.menu:active{color:white; text-decoration:none;}
+
+/*SEUDO CLASES*/
+
+li:hover{
+	background: black; 
+	box-shadow: 0 0 10px white inset;
+}
+
